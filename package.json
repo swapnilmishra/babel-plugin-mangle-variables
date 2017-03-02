@@ -1,0 +1,15 @@
+{
+  "name": "mangle-variables-in-context",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Swapnil Mishra <swapmis1084@gmail.com> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "recast": "^0.11.22"
+  },
+  "scripts": {
+    "codemod": "babel \"src/**/*.js\" --out-dir ./dist"
+  }
+}
